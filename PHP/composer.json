@@ -1,0 +1,25 @@
+{
+    "name": "ogbitblt/intlsysunits",
+    "description": "Library packagee that implements the International System of Units as PHP objects with functionality for measuring and converting between base units.",
+    "type": "library",
+    "require": {
+        "php": "^8.2.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "OGBitBlt\\IntlSysUnits\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "OGBitBlt",
+            "email": "113487847+OGBitBlt@users.noreply.github.com"
+        },
+	{
+	    "name": "Anthony Davis",
+	    "email": "ogbitblt@pm.me"
+	}
+    ],
+    "minimum-stability": "dev"
+}
