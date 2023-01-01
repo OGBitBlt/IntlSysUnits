@@ -1,0 +1,50 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <RootNamespace>OGBitBlt.IntlSysUnits</RootNamespace>
+  </PropertyGroup>
+
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <AssemblyName>OGBitBlt.IntlSysUnits</AssemblyName>
+    <LangVersion>latest</LangVersion>
+    <OutputPath>build\Debug</OutputPath>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <LangVersion>latest</LangVersion>
+    <OutputPath>build\Release</OutputPath>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="src\Exception\" />
+    <None Remove="src\SIBaseUnits\AmountOfSubstance\" />
+    <None Remove="src\SIBaseUnits\ElectricalCurrent\" />
+    <None Remove="src\SIBaseUnits\Length\" />
+    <None Remove="src\SIBaseUnits\Luminous\" />
+    <None Remove="src\SIBaseUnits\Temperature\" />
+    <None Remove="src\SIBaseUnits\Time\" />
+    <None Remove="src\SIBaseUnits\AmountOfSubstance\Conversion\" />
+    <None Remove="src\SIBaseUnits\ElectricalCurrent\Conversion\" />
+    <None Remove="src\SIBaseUnits\Length\Conversion\" />
+    <None Remove="src\SIBaseUnits\Luminous\Conversion\" />
+    <None Remove="src\SIBaseUnits\Temperature\Conversion\" />
+    <None Remove="src\SIBaseUnits\Time\Conversion\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="src\Exception\" />
+    <Folder Include="src\SIBaseUnits\AmountOfSubstance\" />
+    <Folder Include="src\SIBaseUnits\ElectricalCurrent\" />
+    <Folder Include="src\SIBaseUnits\Length\" />
+    <Folder Include="src\SIBaseUnits\Luminous\" />
+    <Folder Include="src\SIBaseUnits\Temperature\" />
+    <Folder Include="src\SIBaseUnits\Time\" />
+    <Folder Include="src\SIBaseUnits\AmountOfSubstance\Conversion\" />
+    <Folder Include="src\SIBaseUnits\ElectricalCurrent\Conversion\" />
+    <Folder Include="src\SIBaseUnits\ElectricalCurrent\Conversion\" />
+    <Folder Include="src\SIBaseUnits\Length\Conversion\" />
+    <Folder Include="src\SIBaseUnits\Luminous\Conversion\" />
+    <Folder Include="src\SIBaseUnits\Temperature\Conversion\" />
+    <Folder Include="src\SIBaseUnits\Time\Conversion\" />
+  </ItemGroup>
+</Project>
