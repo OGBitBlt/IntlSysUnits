@@ -1,8 +1,7 @@
-﻿# International System of Units API Library
-##VERSION 
-***DEVELOPMENT***
-##RELEASE DATE
-***DECEMBER 25, 2022 (MERRY CHRISTMAS)***
+# International System of Units API Library
+## VERSION INFO
+ - VERSION: ***DEVELOPMENT***
+ - RELEASE DATE: ***DECEMBER 25, 2022 (MERRY CHRISTMAS)***
 ## SUMMARY
 The international system of units, known by the international abbreviation
 SI in all languages and sometimes pleonastically as SI System, is the 
